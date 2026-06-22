@@ -1,4 +1,3 @@
-import os
 import requests
 import json
 from src.config import (
@@ -9,7 +8,6 @@ from src.config import (
     GDC_CASES_PAGE_SIZE,
     REQUEST_TIMEOUT,
 )
-
 
 # Fields to retrieve
 fields = [
