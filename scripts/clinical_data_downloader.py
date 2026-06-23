@@ -15,13 +15,14 @@ fields = [
     "demographic.gender",
     "demographic.days_to_birth",
     "demographic.vital_status",
+    "demographic.days_to_death",
+    "diagnoses.laterality",
     "diagnoses.tumor_grade",
     "diagnoses.ajcc_pathologic_stage",
     "diagnoses.ajcc_pathologic_t",
     "diagnoses.ajcc_pathologic_n",
     "diagnoses.ajcc_pathologic_m",
-    "diagnoses.days_to_last_follow_up",
-    "diagnoses.days_to_death",
+    "diagnoses.days_to_last_follow_up"
 ]
 
 # Query parameters
