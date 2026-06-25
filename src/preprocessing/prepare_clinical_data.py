@@ -78,6 +78,8 @@ def prepare_clinical_data():
     clinical_data['age_at_diagnosis'] = clinical_data['age_at_diagnosis'].fillna(
         clinical_data['age_at_diagnosis'].median())
 
+    return clinical_data
+
 
 if __name__ == "__main__":
     prepare_clinical_data()
